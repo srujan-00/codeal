@@ -1,4 +1,3 @@
-const express = require('express');
 const mongoose = require('mongoose');
 main().catch(function(err){
     console.log(`Error ${err} has occured while trying to connect to the database`);
